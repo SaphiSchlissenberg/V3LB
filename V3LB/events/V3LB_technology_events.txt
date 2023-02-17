@@ -1,0 +1,55 @@
+namespace = V3LB_technology_events
+
+V3LB_technology_events.1 = { #Def buff for minor countries
+	type = country_event
+	placement = root
+
+	title = V3LB_technology_events.1.t
+	desc = V3LB_technology_events.1.d
+	flavor = V3LB_technology_events.1.f
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_springtime_of_nations.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/world_fair"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	trigger = {
+		NOT = {
+            has_variable = nationalism_minor
+        }
+		OR = {
+				ROOT = c:NET
+				ROOT = c:SPA
+				ROOT = c:TUR
+				ROOT = c:BRZ
+				ROOT = c:JAP
+				ROOT = c:MEX
+				ROOT = c:SWE
+				ROOT = c:EGY
+				ROOT = c:SAF
+						}
+		is_player = yes			
+		has_technology_researched = nationalism
+	}
+	immediate = {
+        set_variable = {
+            name = nationalism_minor
+            months = -1
+        }
+	}
+
+	option = { #Yes we are minor
+		name = V3LB_technology_events.1.a
+		default_option = yes
+		add_modifier = {
+			name = nationalism_minor_defense
+			months = 120
+		}
+	}
+}
