@@ -1,6 +1,0 @@
-﻿l_russian:
-
-concept_battalion:0 "Батальон"
-concept_battalions:1 "Батальоны"
-concept_battalions_desc:0 "[concept_unit] вооружённых сил [Concept('concept_country', 'страны')]. Их создают и обеспечивают [SelectLocalization(GetPlayer.IsValid,'concept_battalion_desc_added', 'казармы')], а возглавляют [Concept('concept_general', 'генералы')]."
-concept_battalions_desc_added:0 "[GetBuildingType('building_barracks').GetName]"
