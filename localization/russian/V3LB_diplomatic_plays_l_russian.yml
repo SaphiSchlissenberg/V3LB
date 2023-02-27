@@ -1,3 +1,0 @@
-﻿l_russian:
-
- war_goal_annex_country_desc:0 "[WAR_GOAL.GetHolder.GetName] аннексиру[WAR_GOAL.GetHolder.GetCustom('RU_CL_END_T')] #tooltippable_name #tooltip:[WAR_GOAL.GetTarget.GetTooltipTag],DATA_COUNTRY_NAME_TOOLTIP,CountryTooltip [WAR_GOAL.GetTarget.GetFlagTextIcon][WAR_GOAL.GetTarget.GetCustom('RU_CL_VP')]#!#!."
