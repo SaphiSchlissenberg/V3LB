@@ -1,3 +1,0 @@
-nationalism_minor_defense = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
-	unit_defense_mult = 0.3
