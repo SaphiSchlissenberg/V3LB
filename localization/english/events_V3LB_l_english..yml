@@ -1,0 +1,27 @@
+﻿l_english:
+#Minor defense buf
+V3LB_technology_events.1.t:0 "Rise of Nation"
+V3LB_technology_events.1.d:0 "We are minor and yet have teeth"
+V3LB_technology_events.1.f:0 ""Non-violence doesn't mean we have to passively accept injustice. We have to fight for our rights, we have to oppose injustice.""
+V3LB_technology_events.1.a:0 "We would protect what is ours or die trying!"
+#Italy unity
+V3LB_technology_events.2.t:0 "Avanti Savoia!"
+V3LB_technology_events.2.d:0 "Forward! To the united Nation!"
+V3LB_technology_events.2.f:0 "For long years we've been governed by outsiders. For long years we've been torn apart. For long years we've suffered humiliation from our neigbors. Enough! From now on, the Italians will decide their fate. And woe to those who owe us."
+V3LB_technology_events.2.a:0 "Vae victis!"
+#New world Spain
+V3LB_technology_events.3.t:0 "Returning to the New World"
+V3LB_technology_events.3.d:0 "We are back!"
+V3LB_technology_events.3.f:0 "This moment will be remembered by our descendants for centuries! What had previously seemed impossible did happen. From now on, we begin a crusade in the New World!"
+V3LB_technology_events.3.a:0 "¡Santiago y cierra, España!"
+
+#China education
+V3LB_game_start_events.1.t:0 "Agrarian society"
+V3LB_game_start_events.1.d:0 "The relevance of the education of farmers (and the agrarian society in China in general) cannot be stressed enough. One of the primary reasons why China is still a third-world country is because it is a pre-industrial society."
+V3LB_game_start_events.1.f:0 "Major effects of lack of education include: poor health, lack of a voice, shorter lifespan, unemployment, exploitation and gender inequality."
+V3LB_game_start_events.1.a:0 "We are doomed..."
+
+V3LB_game_start_events.2.t:0 "Study, study and study again!"
+V3LB_game_start_events.2.d:0 "We are somewhat human now!"
+V3LB_game_start_events.2.f:0 "By granting human rights to our citizens, we realized our backwardness from the rest of the world. This injustice needs to be corrected."
+V3LB_game_start_events.2.a:0 "We made it!"
