@@ -1,0 +1,113 @@
+﻿##TUTORIAL: Replace je_minor_defense_buff with whatever name you wanna give your journal entry
+je_minor_defense_buff = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	is_shown_when_inactive = {
+		OR = {
+			c:NET = ROOT
+			c:SPA = ROOT
+			c:TUR = ROOT
+			c:BRZ = ROOT
+			c:JAP = ROOT
+			c:MEX = ROOT
+			c:SWE = ROOT
+			c:EGY = ROOT
+			c:SAF = ROOT
+						}
+		NOT = { has_variable = nationalism_minor_defense }
+	}
+	
+	
+	
+	complete = {
+		has_technology_researched = nationalism
+		}
+	
+	
+	on_complete = {
+		trigger_event = { 
+			id = V3LB_technology_events.1 
+		}
+		
+	}
+	
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+je_italy_unity_buff = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
+		}
+	}
+	complete = {
+		c:ITA = ROOT
+		has_technology_researched = general_staff
+		}
+	
+	
+	on_complete = {
+		trigger_event = { 
+			id = V3LB_technology_events.2
+		}
+		
+	}
+	
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+je_italy_unity_buff = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:north_italian
+			country_has_primary_culture = cu:south_italian
+		}
+	}
+	complete = {
+		c:ITA = ROOT
+		has_technology_researched = general_staff
+		}
+	
+	
+	on_complete = {
+		trigger_event = { 
+			id = V3LB_technology_events.2
+		}
+		
+	}
+	
+	weight = 100
+	should_be_pinned_by_default = yes
+}
+
+je_new_world_spa = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	is_shown_when_inactive = {
+			c:SPA = ROOT  }
+		NOT = { has_variable = new_world_spa }
+	
+	complete = {
+		owns_entire_state_region = STATE_BOLIVAR
+		owns_entire_state_region = STATE_MIRANDA
+		owns_entire_state_region = STATE_ZULIA
+		owns_entire_state_region = STATE_GUAVIARE
+		owns_entire_state_region = STATE_CUNDINAMARCA
+		owns_entire_state_region = STATE_CAUCA
+		owns_entire_state_region = STATE_ANTIOQUIA
+		owns_entire_state_region = STATE_PANAMA
+		owns_entire_state_region = STATE_PASTAZA
+		owns_entire_state_region = STATE_ECUADOR
+	}
+
+	on_complete = {
+		trigger_event = { 
+			id = V3LB_technology_events.3 
+		}
+		
+	}
+	
+	weight = 100
+	should_be_pinned_by_default = yes
+}
